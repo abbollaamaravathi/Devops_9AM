@@ -1,2 +1,2 @@
 # Devops_9AM
-Repo for Devops batch !
+Repo for 1st devops class !
