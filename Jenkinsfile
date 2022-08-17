@@ -15,6 +15,12 @@ pipeline {
           }
         }
 
+        stage('step1.3') {
+          steps {
+            sh 'echo "welcome"'
+          }
+        }
+
       }
     }
 
@@ -29,6 +35,12 @@ pipeline {
         stage('step1.2') {
           steps {
             sh 'echo "welcome to devops"'
+          }
+        }
+
+        stage('step1.4') {
+          steps {
+            sh 'echo "hello step 1.4"'
           }
         }
 
